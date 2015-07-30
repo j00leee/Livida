@@ -1,0 +1,26 @@
+h1{
+	text-align: center;
+}
+
+
+.a{
+	text-align: right;
+}
+
+.b{
+	text-align: center;
+}
+
+.c{
+	text-align: center;
+}
+
+.d li{
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+}
+
+.e li{
+	list-style: none;
+}
