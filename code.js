@@ -1,7 +1,7 @@
 var name = "Julie";
 
 $( document ).ready(function() {
-    $("#name").text("Disorn");
+    $("#name").text(name);
     
     $( "#continue" ).click(function() {
   		$("#firsttext").show();
