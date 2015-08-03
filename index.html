@@ -7,30 +7,73 @@
 		<link href="css/main.css" rel="stylesheet" media="screen">
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script type="text/javascript" src="code.js"></script>
-	</head>
+		<style> html{cursor:url('http://www.dolliehost.com/dolliecrave/cursors/cursors-all/cute36.gif'), auto }</style>
+		<title>Scenario 1</title>
+   	</head>
 	<body>
-
-		<h1>Tim is a senior. The school year is coming to an end and he and his friends got senioritis. Therefore, his friends want to cut school with him.</h1>
+		<h1>Tim is a senior. The school year is coming to an end and his friends got senioritis. Therefore, his friends want Tim to cut school with them.</h1>
 		<button type="button" id="continue">Continue</button>
 		<div style="display: none" id="firsttext">
 
-			<p>Hi <div id="name"></div>. My friends have seniortitis so they want to cut school with me. What should I do?</P>
+			<p>Hi <div id="name"></div>. My friends have seniortitis so they want to cut school with me. What should I do?</p>
 		
 			<p class="b">What should he do?</p>
 			<ul class="d">
-				<li>Do not cut school.</li> 
-				<li>Cut school. You are a senior and school is about to end anyway.</li>
+				<li><button type="button" id="dont">Do not cut school.</button></li> 
+
+				<li><button type="button" id="do">Cut school. You are a senior and school is about to end anyway.</button></li>
 			</ul>
 		</div>
 		<div style="display: none" id="secondtext">
 			<p class="a"><br>Do not cut school</br></p>
-			<p class="c">My friends are still begging me to cut school with them. What should I tell them?</p>
+			<p>My friends are still begging me to cut school with them. What should I tell them?</p>
+			<p class="c">What should he do?</p>
 			<ul class="e">
-				<li>I’m not going to cut school. I have faith in you guys that you guys <br> can endure senioritis until school ends. Why not spend your last days in high school</br> fully before we go on our separate ways for college?</li>
-				<li>Okay fine I will cut school with you guys.</li>
+				<li><button type="button" id="right">Tell them: "I’m not going to cut school. I have faith in you guys that you guys <br> can endure senioritis until school ends. Why not spend your last days in </br>high school fully before we go on our separate ways for college?"</button></li>
+				<li><button type="button" id="wrong">Okay fine I will cut school with you guys.</button></li>
 			</ul>
-
+		</div>
+		<div style="display: none" id="thirdtext">
 			<p><br>I’m not going to cut school. I have faith in you guys that you guys can endure senioritis until school ends. Why not spend your last days in high school fully before we go on our separate ways for college?</br></p>
+		</div>
+		<div style="display: none" id="fourthtext">
+			<p class="f"><br>Cut school. you are a senior and school is about to end anyway.</br></p>
+			<p class="g">Is this really the right choice? I want to make many high school memories as much as I can.</p>
+			<p class="aa">What are you going to tell him?</p>
+			<ul class="h">
+				<li><button type="button" id="correct">Go to school. Don't cut school with them.</button></li>
+				<li><button type="button" id="incorrect">You can make memories with them!</button></li>
+			</ul>
+		</div>
+		<div style="display: none" id="fifthtext">
+			<p class="l">Go to school. Don't cut school with them.</p>
+		</div>
+		<div style="display: none" id="sixthtext">
+			<p class="i">You can make memories with them!</p>
+			<p>What about my other classmates and teachers? Oh, don't forget the principal, deans, and janitors too!</p>
+			<p class="haha">What advice are you going to tell him?</p>
+			<ul class="j">
+				<li><button type="button" id="r">Be the leader. Set a good example to your friends by not cutting.</button></li>
+				<li><button type="button" id="w">You can always visit them.</button></li>
+			</ul>
+		</div>
+		<div style="display: none" id="seventhtext">
+			<p class="k">Be the leader. Set a good example to your friends by not cutting.</p>
+		</div>
+		<div style="display: none" id="eighthtext">
+			<p class="m">You can always visit them.</p>
+			<p>What if I don't have time? & I won't be able to see all of my classmates.</p>
+			<p class="hehe">What are you going to tell him now?</p>
+			<ul class="n">
+				<li><button type="button" id="c">Okay don't cut.</button></li>
+				<li><button type="button" id="i">Just cut.</button></li>
+			</ul>
+		</div>
+		<div style="display: none" id="ninthtext">
+			<p class="o">Okay don't cut.</p>
+		</div>
+		<div style="display: none" id="tenthtext">
+			<p class="p">Just cut.</p>
 		</div>
 	</body>
 	<script>
@@ -38,11 +81,3 @@
         var PARSE_JS = "yX3ogNAmEKkoHmrwuJzccYXxNiwaF0peT4TbJ1O5";
 	</script>
 </html>
-
-
-
-
-
-
-
-
