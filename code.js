@@ -6,31 +6,31 @@ $( document ).ready(function() {
     $( "#continue" ).click(function() {
   		$("#firsttext").show();
 	});
-	$( "#dont" ).click(function() {
+	$( "#dont-cut-btn" ).click(function() {
   		$("#secondtext").show();
 	});
-	$( "#right" ).click(function() {
+	$( "#tell-them-btn" ).click(function() {
   		$("#thirdtext").show();
 	});
-	$( "#do" ).click(function() {
+	$( "#cut-btn" ).click(function() {
   		$("#fourthtext").show();
 	});
-	$( "#correct" ).click(function() {
+	$( "#go-to-school-btn" ).click(function() {
   		$("#fifthtext").show();
 	});
-	$( "#incorrect" ).click(function() {
+	$( "#memories-btn" ).click(function() {
   		$("#sixthtext").show();
 	});
-	$( "#r" ).click(function() {
+	$( "#leader-btn" ).click(function() {
   		$("#seventhtext").show();
 	});
-	$( "#w" ).click(function() {
+	$( "#always-visit-btn" ).click(function() {
   		$("#eighthtext").show();
 	});
-	$( "#c" ).click(function() {
+	$( "#okay-dont-cut-btn" ).click(function() {
   		$("#ninthtext").show();
 	});
-	$( "#i" ).click(function() {
+	$( "#just-cut-btn" ).click(function() {
   		$("#tenthtext").show();
 	});
 
