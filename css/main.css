@@ -1,15 +1,36 @@
-h1{
+.intro{
 	text-align: center;
+	    background-color: azure;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 4em 1em 4em;
+    font-size: 22px;
+    border-style: solid;
+    border-width: thin;
 }
 
 .a{
 	text-align: right;
 }
 
-.b{
+.choice{
 	text-align: center;
+	    text-align: center;
+    text-align: center;
+    background-color: azure;
+    height: 6em;
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 4em 1em 4em;
+    font-size: 17px;
+    border-style: solid;
+    border-width: thin;
 }
 
+.button{
+	background-color: yellow;
+}
 .c{
 	text-align: center;
 }

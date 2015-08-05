@@ -14,7 +14,8 @@ $( document ).ready(function() {
 	});
 	$( "#cut-btn" ).click(function() {
   		$("#fourthtext").show();
-	});
+  		$("#dont-cut-btn").prop("disabled",true);
+  	});
 	$( "#go-to-school-btn" ).click(function() {
   		$("#fifthtext").show();
 	});

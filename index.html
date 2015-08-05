@@ -11,18 +11,19 @@
 		<title>Scenario 1</title>
    	</head>
 	<body>
-		<h1>Tim is a senior. The school year is coming to an end and his friends got senioritis. Therefore, his friends want Tim to cut school with them.</h1>
+		<h1 class="intro">Tim is a senior. The school year is coming to an end and his friends got senioritis. Therefore, his friends want Tim to cut school with them.</h1>
 		<button type="button" id="continue">Continue</button>
 		<div style="display: none" id="firsttext">
 
 			<p>Hi <div id="name"></div>. My friends have seniortitis so they want to cut school with me. What should I do?</p>
-		
-			<p class="b">What should he do?</p>
-			<ul class="d">
-				<li><button type="button" id="dont-cut-btn">Do not cut school.</button></li> 
+			<div class="choice">
+				<p class="question">What should he do?</p>
+				<ul class="d">
+					<li><button type="button" id="dont-cut-btn" class="button">Do not cut school.</button></li> 
 
-				<li><button type="button" id="cut-btn">Cut school. You are a senior and school is about to end anyway.</button></li>
-			</ul>
+					<li><button type="button" id="cut-btn"class="button">Cut school. You are a senior and school is about to end anyway.</button></li>
+				</ul>
+			</div>
 		</div>
 		<div style="display: none" id="secondtext">
 			<p class="a"><br>Do not cut school</br></p>
