@@ -1,3 +1,14 @@
+body {
+  position: inherit;
+}
+
+.bar-standard {
+  top: 0;
+}
+
+.content-padded {
+  margin-top: 60px;
+}
 .intro{
 	text-align: center;
 	    background-color: azure;
