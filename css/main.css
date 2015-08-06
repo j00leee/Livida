@@ -10,19 +10,45 @@ body {
   margin-top: 60px;
 }
 .intro{
-	text-align: center;
-	    background-color: azure;
+	    text-align: center;
+    background-color: azure;
     /* height: 5em; */
     /* width: 12em; */
     -moz-border-radius: 1em 4em 1em 4em;
-    border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 1em 1em 1em;
     font-size: 22px;
     border-style: solid;
     border-width: thin;
 }
 
-.a{
-	text-align: right;
+.left{
+	background-color: green;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 2em 7em 5em 2em;
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    max-width: 296px;
+    max-height: 129px;
+    clear: both;
+}
+
+.right{
+	float: right;
+	background-color: purple;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 34em 8em 6em 28em;
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    max-width: 211px;
+    max-height: 163px;
+    display: block;
+    text-align: right;
 }
 
 .choice{
@@ -30,32 +56,22 @@ body {
 	    text-align: center;
     text-align: center;
     background-color: azure;
-    height: 6em;
+    height: 9em;
     /* width: 12em; */
-    -moz-border-radius: 1em 4em 1em 4em;
-    border-radius: 1em 4em 1em 4em;
+    -moz-border-radius: 1em 1em 1em 1em;
+    border-radius: 1em 1em 1em 1em;
     font-size: 17px;
     border-style: solid;
     border-width: thin;
+    max-height: 350px;
 }
 
 .button{
 	background-color: yellow;
+	text-align: center;
 }
 .c{
 	text-align: center;
-}
-
-.o{
-	text-align: right;
-}
-
-.q{
-	text-align: right;
-}
-
-.p{
-	text-align: right;
 }
 
 .d li{
@@ -76,20 +92,8 @@ body {
 	text-align: center;
 }
 
-.f{
-	text-align: right;
-}
-
 .h li{
 	list-style: none;
-}
-
-.l{
-	text-align: right;
-}
-
-.i{
-	text-align: right;
 }
 
 .n li{
@@ -100,10 +104,7 @@ body {
 	list-style: none;
 }
 
-.m{
-	text-align: right;
-}
-
 .hehe{
 	text-align: center;
 }
+
