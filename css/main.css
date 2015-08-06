@@ -2,8 +2,16 @@ body {
   position: inherit;
 }
 
+.title{
+    text-align: center;
+}
+
 .bar-standard {
   top: 0;
+}
+
+#continue{
+    width: 100%;
 }
 
 .content-padded {
