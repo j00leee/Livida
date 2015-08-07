@@ -5,10 +5,10 @@ $( document ).ready(function(){
 		$("#switch").click(function (){
 			$("#red").show();
 			$("#green").hide();
-		});
-		$("#switch").click(function (){
-			$("#yellow").show();
-			$("#red").hide();
+			$("#switch").click(function (){
+				$("#yellow").show();
+				$("#red").hide();
+			});
 		});
 	});
 });
