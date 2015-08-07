@@ -74,6 +74,10 @@ body {
     max-height: 350px;
 }
 
+.text {
+  margin-bottom: 16px;
+}
+
 .button{
 	background-color: yellow;
 	text-align: center;
