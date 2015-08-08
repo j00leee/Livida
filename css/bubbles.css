@@ -1,10 +1,10 @@
 //Bubbles
 .bubble.me{
-    background-color: purple;
+    background-color: #c78ee7;
 }
 
 .bubble.you{
-    background-color: green;
+    background-color: #95fb8a;
 }
 
 .bubble{
@@ -17,11 +17,11 @@
 }
 
 .bubble.you::before {
-    background-color: green;
+    background-color: #95fb8a;
 }
 
 .bubble.me::before {
-    background-color: purple;
+    background-color: #c78ee7;
 }
 
 .bubble::before {
