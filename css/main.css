@@ -74,6 +74,12 @@ body {
     max-height: 350px;
 }
 
+#do-not-cut-school-picture{
+	width: 326px;
+    height: 227px;
+    margin: 2px 0px 2px 29px;
+}
+
 .text {
   margin-bottom: 16px;
 }

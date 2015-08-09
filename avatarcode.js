@@ -1,13 +1,11 @@
-
-
 $( document ).ready(function(){
-	$("#switch").click(function (){
+	$("#switch-guy-shirt").click(function (){
 		$("#green").show();
 		$("#blue").hide();
-		$("#switch").click(function (){
+		$("#switch-guy-shirt").click(function (){
 			$("#red").show();
 			$("#green").hide();
-			$("#switch").click(function (){
+			$("#switch-guy-shirt").click(function (){
 				$("#yellow").show();
 				$("#red").hide();
 			});
