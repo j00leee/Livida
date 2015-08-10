@@ -43,6 +43,10 @@ body {
     clear: both;
 }
 
+#tell-them-btn{
+	margin: -2px 18px 3px -24px;
+}
+
 .right{
 	float: right;
 	background-color: #c78ee7;
@@ -79,6 +83,10 @@ body {
     margin: 2px 0px 2px 29px;
 }
 
+#dont-cut-btn{
+	margin: 0px 0px 5px 52px;
+}
+
 .text {
   margin-bottom: 16px;
 }
@@ -86,6 +94,7 @@ body {
 .button{
 	background-color: yellow;
 	text-align: center;
+	margin: -2px 18px 3px -24px;
 }
 .c{
 	text-align: center;

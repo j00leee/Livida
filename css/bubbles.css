@@ -50,6 +50,8 @@
 .me {
     float: right;
     margin: 5px 20px 5px 45px;
+    max-height: 218px;
+    max-width: 300px;
 }
 
 .me::before {
@@ -57,4 +59,6 @@
     right: -9px;
 }
 
-
+p{
+    color: black;
+}
