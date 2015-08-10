@@ -1,21 +1,22 @@
 var counter = 0;
 $( document ).ready(function(){
 	$("#switch-guy-shirt").click(function (){
-		if(counter == 0){
-			$("#green").show();
-			$("#blue").hide();
+                $(".avatar-male-color").hide();
+                if(counter == 0){
+                  $("#green").show();
 		}
-		else if(counter == 1){
-			$("#red").show();
-			$("#green").hide();
+		if(counter == 1){
+                  $("#red").show();
 		}
 		else if(counter == 2){
-			$("#yellow").show();
-			$("#red").hide();
+                  $("#yellow").show();
 		}
-		else{
-			counter = 0;
+		else if(counter == 3){
+                        $("#blue").show();
 		}
-		counter++;
+                counter++;
+		if(counter == 4){
+                        counter = 0;
+                }
 	});
 });
