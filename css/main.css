@@ -60,6 +60,7 @@ body {
 }
 
 .choice{
+    display: table;
 	text-align: center;
     background-color: #9dfbef;
     height: 9em;
