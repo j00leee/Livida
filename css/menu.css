@@ -1,0 +1,23 @@
+.menu-btns{
+    width: 190px;
+}
+
+#logo{
+	margin: 12px 0px -5px 35px;
+}
+
+#start{
+	margin: 10px 0px 0px 43px
+}
+
+#avatar{
+	margin: -14px 0px 0px 43px;
+}
+
+#settings{
+	margin: -31px 0px 0px 43px;
+}
+
+#credits{
+	margin: -43px 0px 0px 43px;
+}
