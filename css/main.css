@@ -1,5 +1,7 @@
 body {
   position: inherit;
+  font-family: 'Open Sans';
+
 }
 
 .title{
@@ -84,7 +86,7 @@ body {
 }
 
 #dont-cut-btn{
-	margin: 0px 0px 5px 52px;
+	margin-right: 10px;
 }
 
 .text {
@@ -93,11 +95,12 @@ body {
 
 .button{
 	background-color: yellow;
-	text-align: center;
-	margin: -2px 18px 3px -24px;
+	margin: 0px;
 }
-.c{
+.question{
 	text-align: center;
+    font-size: 25px;
+    padding-top: 6px;
 }
 
 .d li{
@@ -133,4 +136,6 @@ body {
 .hehe{
 	text-align: center;
 }
-
+.choice-button{
+    width: 45%;
+  }
