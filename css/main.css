@@ -86,7 +86,8 @@ body {
 }
 
 #dont-cut-btn{
-	margin-right: 10px;
+	margin-bottom: 10px;
+
 }
 
 .text {
@@ -137,5 +138,8 @@ body {
 	text-align: center;
 }
 .choice-button{
-    width: 45%;
+    width: 90%;
+    border-style: none;
+    border-radius: 1em 1em 1em 1em;
+    margin-top: 5px;
   }
