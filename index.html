@@ -7,6 +7,7 @@
 		<link href="css/bootstrap.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/ratchet/2.0.2/css/ratchet.css" rel="stylesheet" media="screen">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/ratchet/2.0.2/css/ratchet-theme-android.css" rel="stylesheet" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 		<link href="css/main.css" rel="stylesheet" media="screen">
 		<link href="css/bubbles.css" rel="stylesheet" media="screen">
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -26,7 +27,7 @@
 			  <h1 class="title">Tim</h1>
 			</header>
 
-		<h1 class="intro">Tim is a senior. The school year is coming to an end and his friends got senioritis. Therefore, his friends want Tim to cut school with them.</h1>
+		<p class="intro blue-bubble">Tim is a senior. The school year is coming to an end and his friends got senioritis. Therefore, his friends want Tim to cut school with them.</p>
 	<!-- 	<button class="btn btn-success">Continue</button> -->
 		<button type="button" id="continue">Continue</button>
 		<div style="display: none" id="firsttext" class="text">
@@ -34,14 +35,12 @@
 				<p>Hi <div id="name"></div>. My friends have senioritis so they want to cut school with me. What should I do?</p>
 			</div>
 			<div class = "bubble you">
-				<img src="pictures/tim.png">
+				<img src="pictures/big tim.png">
 			</div>
 			<div class="choice">
 				<p class="question">What should he do?</p>
-				<ul class="d">
-					<li><button type="button" id="dont-cut-btn" class="button">Do not cut school.</button></li>
-					<li><button type="button" id="cut-btn" class="button">Cut school. You are a senior and school is about to end anyway.</button></li>
-				</ul>
+					<button type="button" id="dont-cut-btn" class="button choice-button">Do not cut school.</button>
+					<button type="button" id="cut-btn" class="button choice-button">Cut school. You are a senior and school is about to end anyway.</button>
 			</div>
 		</div>
 		<div style="display: none" id="secondtext" class="text">
@@ -55,7 +54,7 @@
 				<p>My friends are still begging me to cut school with them. What should I tell them?</p>
 			</div>
 			<div class="choice">
-				<p class="c">What should he do?</p>
+				<p class="question">What should he do?</p>
 				<ul class="e">
 					<li><button type="button" id="tell-them-btn" class="button">Tell them: "I’m not going to cut school. I have faith in you guys that you guys <br> can endure senioritis until school ends. Why not spend your last days in </br>high school fully before we go on our separate ways for college?"</button></li>
 					<li><button type="button" id="wrong" class="button">Tell them that you will cut school with them.</button></li>
