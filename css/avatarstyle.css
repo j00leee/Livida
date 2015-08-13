@@ -1,0 +1,23 @@
+.guy{	
+	width: 72%;
+    height: 81%;
+    margin: 0px 0px 7px -35px;
+    display: inline
+}
+
+.girl{
+	width: 72%;
+    height: 81%;
+    margin: 0px 0px 7px -35px;
+    display: inline
+}
+
+.icon{
+	margin: -505px 19px 0px 0px;
+	display: inline-block;
+    font-family: Ratchicons;
+    font-size: 18px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
