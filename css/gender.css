@@ -3,7 +3,8 @@
 }
 
 .gender{
-	display: table-caption;
-    padding: 5em;
-    margin: -68px 0px 0px -9px;
+	width: 100%
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
 }

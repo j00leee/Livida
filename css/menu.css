@@ -1,23 +1,14 @@
 .menu-btns{
-    width: 190px;
+	width: 80%;
+	height: auto;
 }
 
 #logo{
-	margin: 12px 0px -5px 35px;
+	width: 90%;
+	height: auto;
 }
 
-#start{
-	margin: 10px 0px 0px 43px
-}
-
-#avatar{
-	margin: -14px 0px 0px 43px;
-}
-
-#settings{
-	margin: -31px 0px 0px 43px;
-}
-
-#credits{
-	margin: -43px 0px 0px 43px;
+div{
+	margin: 0 auto;
+	text-align: center;
 }
