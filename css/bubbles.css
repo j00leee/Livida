@@ -6,15 +6,18 @@
 .bubble.you{
     background-color: #95fb8a;
     font-size: 16px;
+    padding-top: 10px;
+}
 
-    
+.bubble.you img {
+    clear: both;
 }
 
 .bubble{
     border-radius: 5px;
     box-shadow: 0 0 6px #B2B2B2;
     display: inline-block;
-    padding: 10px 18px;
+    padding: 0px 18px;
     position: relative;
     vertical-align: top;
 }
@@ -43,6 +46,7 @@
 
 .you {
     margin: 5px 45px 5px 20px;
+
 }
 
 .you::before {
@@ -64,6 +68,9 @@
 
 p{
     color: black;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 .blue-bubble {
     padding: 2px;
