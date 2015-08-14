@@ -1,0 +1,138 @@
+body {
+  position: inherit;
+  font-family: 'Open Sans';
+
+}
+
+.title{
+    text-align: center;
+    font-family: 'PT Sans';
+}
+
+.bar-standard {
+  top: 0;
+}
+
+#continue{
+    width: 100%;
+}
+
+.content-padded {
+  margin-top: 60px;
+}
+.intro{
+	    text-align: center;
+    background-color: #9dfbef;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 22px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.left{
+	background-color: green;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 2em 7em 5em 2em;
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    max-width: 296px;
+    max-height: 129px;
+    clear: both;
+}
+
+.right{
+	float: right;
+	background-color: #c78ee7;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 34em 8em 6em 28em;
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    max-width: 211px;
+    max-height: 163px;
+    display: block;
+    text-align: right;
+}
+
+.choice{
+	text-align: center;
+    background-color: #9dfbef;
+    -moz-borderradius: 1em 1em 1em 1em;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 17px;
+    border-style: solid;
+    border-width: thin;
+    height: 230px;
+}
+
+#do-not-cut-school-picture{
+	width: 326px;
+    height: 227px;
+    margin: 2px 0px 2px 29px;
+    clear: both;
+}
+
+#dont-cut-btn{
+	margin-bottom: 10px;
+
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.button{
+	background-color: yellow;
+	margin: 0px;
+}
+.question{
+	text-align: center;
+    font-size: 22px;
+    padding-top: 6px;
+}
+
+.d li{
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+.aa{
+	text-align: center;
+}
+
+.haha{
+	text-align: center;
+}
+.hehe{
+	text-align: center;
+}
+.choice-button{
+    width: 90%;
+    border-style: none;
+    border-radius: 1em 1em 1em 1em;
+    margin-top: 5px;
+    height: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px; 
+    font-family: 'PT Sans'
+  }
+.choice-button2{
+    width: 90%;
+    border-style: none;
+    border-radius: 1em 1em 1em 1em;
+    margin-top: 5px;
+    height: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px; 
+    font-family: 'PT Sans'
+  }

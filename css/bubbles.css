@@ -1,0 +1,87 @@
+//Bubbles
+.bubble.me{
+    background-color: #c78ee7;
+}
+
+.bubble.you{
+    background-color: #95fb8a;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.bubble.you img {
+    clear: both;
+}
+
+.bubble{
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 0px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble.you::before {
+    background-color: #95fb8a;
+}
+
+.bubble.me::before {
+    background-color: #c78ee7;
+}
+
+.bubble::before {
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.you {
+    margin: 5px 45px 5px 20px;
+
+}
+
+.you::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;
+}
+
+.me {
+    float: right;
+    margin: 5px 20px 5px 45px;
+    max-height: 218px;
+    max-width: 300px;
+}
+
+.me::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;
+}
+
+p{
+    color: black;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.blue-bubble {
+    padding: 2px;
+    padding-left: 15px;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+.rightbubble {
+    padding-right: 20px;
+}
+.rightbubble2 {
+    padding-top: 20px;
+}
