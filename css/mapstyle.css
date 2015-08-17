@@ -1,3 +1,19 @@
 #star-one{
-	margin: 502px 0px 0px 264px;
+	width: 50%;
+    margin: 533px 0px 0px 26px;
+}
+
+body {
+	
+	top: 0; 
+	left: 0; 
+		
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-position: center top;
+
 }
