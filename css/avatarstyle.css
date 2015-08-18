@@ -12,8 +12,9 @@
     display: inline
 }
 
-.icon{
-	margin: -505px 19px 0px 0px;
+.icon2{
+	float: right;
+    margin: auto 0px
 	display: inline-block;
     font-family: Ratchicons;
     font-size: 18px;
