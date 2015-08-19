@@ -4,6 +4,8 @@ body {
 
 }
 
+
+
 .title{
     text-align: center;
     font-family: 'PT Sans';
@@ -77,8 +79,10 @@ body {
 #do-not-cut-school-picture{
 	width: 326px;
     height: 227px;
-    margin: 2px 0px 2px 29px;
-    clear: both;
+    clear: both; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #dont-cut-btn{

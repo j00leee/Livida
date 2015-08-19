@@ -14,11 +14,13 @@
 
 .icon2{
 	float: right;
-    margin: auto 0px
+    margin: -437px 31px 0px 0px;
+
 	display: inline-block;
     font-family: Ratchicons;
     font-size: 18px;
     line-height: 1;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
+
 } 
