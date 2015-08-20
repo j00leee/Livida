@@ -8,7 +8,7 @@
 	height: auto;
 }
 
-div{
+.buttons{
 	margin: 0 auto;
 	text-align: center;
 }
@@ -28,3 +28,8 @@ body{
 	position: relative;
 }
 
+#ad{
+	width: 40%;
+    float: left;
+    margin: -36px 0px 0px 0px;
+}
