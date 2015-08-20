@@ -13,3 +13,18 @@ div{
 	text-align: center;
 }
 
+body{
+	top: 0; 
+	left: 0; 
+		
+	/* Preserve aspet ratio */
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-image: url("../pictures/background.png");
+	position: relative;
+}
+
