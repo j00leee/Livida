@@ -1,40 +1,42 @@
 #star-one{
-	width: 50%;
-    margin: 533px 0px 0px 26px;
+	width: 20%;
+    margin-top: 60%;
+    margin-left: 30%;
+    display: block;
 }
 
 #star-two{
-	width: 50%;
-    margin: 510px 0px 0px 26px;
+	width: 20%;
+    margin-top: 15%;
+    margin-left: 65%;
+    display: block;
 }
 
 #star-three{
-	width: 50%;
-    margin: 490px 0px 0px 26px;
+	width: 20%;
+    margin-top: 25%;
+    margin-left: 68%;
+    display: block;
 }
 
 #star-four{
-	width: 50%;
-    margin: 460px 0px 0px 26px;
+	width: 20%;
+    margin-top: 25%;
+    margin-left: 50%;
+    display: block;
 }
 
 #star-five{
-	width: 50%;
-    margin: 440px 0px 0px 26px;
+	width: 20%;
+    margin-top: 25%;
+    margin-left: 35%;
+    display: block;
 }
 
 body {
-	
-	top: 0; 
-	left: 0; 
-		
 	/* Preserve aspet ratio */
-	min-width: 100%;
-	min-height: 100%;
-	background-size: contain;
-	background-attachment: local;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-image: url("../pictures/map2.png");
-	position: relative;
 }
