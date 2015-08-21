@@ -1,8 +1,17 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+html, body { 
+	max-width: 100%; 
+	overflow-x: hidden; 
+	margin-left: auto;
+    margin-right: auto;
+} 
 
+body{
+	/* Preserve aspet ratio */
+	background-size: 117% 150%;
+	background-repeat: no-repeat;
+	background-image: url("../pictures/background.png");
+	position: relative;
+}
 .menu-btns{
     width: 80%;
     height: auto;
@@ -13,28 +22,80 @@ html, body {
 	height: auto;
 }
 
+#start{
+	width: 50%; 
+	height: 250px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 800%; 
+	font-family: 'Raleway';
+	font-weight: bold;
+    background-color: green;
+    -moz-border-radius: 500px/ 250px;
+    border-radius: 500px/ 250px;
+    margin-bottom: 3%;
+}
+
+#customize{
+	width: 50%; 
+	height: 250px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 450%; 
+	font-family: 'Raleway';
+	font-weight: bold;
+    background-color: cyan;
+    border-radius: 1em 1em 1em 1em;
+    margin-bottom: 3%;
+}
+
+#settings{
+	width: 50%; 
+	height: 150px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 450%; 
+	font-family: 'Raleway';
+	font-weight: bold;
+    background-color: orange;
+    border-radius: 1em 1em 1em 1em;
+    margin-bottom: 3%;
+}
+
+#credits{
+	width: 50%; 
+	height: 150px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 450%; 
+	font-family: 'Raleway';
+	font-weight: bold;
+    background-color: gray;
+    border-radius: 1em 1em 1em 1em;
+    margin-bottom: 5%;
+}
+
+
 .buttons{
 	margin: 0 auto;
 	text-align: center;
 }
 
-body{
-	top: 0; 
-	left: 0; 
-		
-	/* Preserve aspet ratio */
-	min-width: 100%;
-	min-height: 100%;
-	background-size: cover;
-	background-attachment: local;
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-image: url("../pictures/background.png");
-	position: relative;
-}
-
 #ad{
 	width: 40%;
-    float: left;
-    margin: -36px 0px 0px 0px;
+	margin-left: 28%;
+	margin-right: 50%;
+	bottom: 0;
 }
