@@ -20,8 +20,9 @@ body{
 }
 
 #logo{
-	width: 90%;
+	width: 85%;
 	height: auto;
+	margin-bottom: 6%;
 }
 
 #start{
