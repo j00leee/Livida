@@ -4,7 +4,7 @@ html, body {
 	margin-left: auto;
     margin-right: auto;
 } 
-<<<<<<< HEAD
+
 
 body{
 	/* Preserve aspet ratio */
@@ -12,17 +12,8 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
 	background-image: url("../pictures/background.png");
-
-=======
-
-body{
-	/* Preserve aspet ratio */
-	background-size: 117% 150%;
-	background-repeat: no-repeat;
-	background-image: url("../pictures/background.png");
-	position: relative;
->>>>>>> 8f672c749fa026b2b4039782e41e06d8cd3a3c34
 }
+
 .menu-btns{
     width: 80%;
     height: auto;
