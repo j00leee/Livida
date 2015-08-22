@@ -3,9 +3,6 @@ body {
   font-family: 'Indie Flower';
 
 }
-
-
-
 .title{
     text-align: center;
     font-family: 'PT Sans';
@@ -146,6 +143,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     clear: both;
+    margin-bottom: 3%;
+    margin-top: 3%;
   }
   #female {
     width: 60%;
