@@ -8,10 +8,10 @@ html, body {
 
 body{
 	/* Preserve aspet ratio */
-	background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
-	background-image: url("../pictures/background.png");
+	background-image: url("../pictures/Background.png");
+	background-size: cover;
 }
 
 .menu-btns{
