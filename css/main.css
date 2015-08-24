@@ -1,8 +1,13 @@
 body {
   position: inherit;
   font-family: 'Indie Flower';
-
 }
+
+.meter{
+    width: 22%;
+    height: 38%;
+}
+
 .title{
     text-align: center;
     font-family: 'PT Sans';
