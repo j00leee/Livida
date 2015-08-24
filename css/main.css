@@ -3,10 +3,33 @@ body {
   font-family: 'Indie Flower';
 }
 
-.meter{
+#meter{
     width: 22%;
     height: 38%;
 }
+
+#meter2{
+    width: 22%;
+    height: 38%;
+}
+
+#meter3{
+    width: 22%;
+    height: 38%;
+}
+
+.righttt{
+    height: 2px;
+    float: right;
+    padding: 0px;
+    top: 0;
+    margin-top: 0px;
+}
+
+.points{
+    width: 31%;
+}
+
 
 .title{
     text-align: center;

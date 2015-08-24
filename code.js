@@ -23,6 +23,8 @@ $( document ).ready(function() {
 	$( "#cut-btn" ).click(function() {
   		$("#fourthtext").show();
   		$("#dont-cut-btn").prop("disabled",true);
+      $("#meter2").show();
+      $("#meter").hide();
   	});
 	$( "#go-to-school-btn" ).click(function() {
   		$("#fifthtext").show();
@@ -31,6 +33,8 @@ $( document ).ready(function() {
 	$( "#memories-btn" ).click(function() {
   		$("#sixthtext").show();
   		$("#go-to-school-btn").prop("disabled",true);
+      $("#meter3").show();
+      $("#meter2").hide();
 	});
 	$( "#leader-btn" ).click(function() {
   		$("#seventhtext").show();
