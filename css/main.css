@@ -41,14 +41,20 @@ body {
 }
 
 #continue{
-    width: 100%;
+    width: 60%;
+    margin-left: 20%;
+    height: 150px;
+    font-family: 'Slabo 27px';
+    font-size: 42px;
+    color: black;
+    background-color: gold;
 }
 
 .content-padded {
   margin-top: 60px;
 }
 .intro{
-	    text-align: center;
+	text-align: center;
     background-color: #9dfbef;
     /* height: 5em; */
     /* width: 12em; */
@@ -60,7 +66,7 @@ body {
 }
 
 .left{
-	background-color: green;
+    background-color: green;
     /* height: 5em; */
     /* width: 12em; */
     -moz-border-radius: 1em 4em 1em 4em;
@@ -68,14 +74,12 @@ body {
     font-size: 14px;
     border-style: solid;
     border-width: thin;
-    max-width: 296px;
-    max-height: 129px;
     clear: both;
 }
 
 .right{
-	float: right;
-	background-color: #c78ee7;
+    float: right;
+    background-color: #c78ee7;
     /* height: 5em; */
     /* width: 12em; */
     -moz-border-radius: 1em 4em 1em 4em;
@@ -83,22 +87,20 @@ body {
     font-size: 14px;
     border-style: solid;
     border-width: thin;
-    max-width: 211px;
-    max-height: 163px;
     display: block;
     text-align: right;
 }
 
 .choice{
-	text-align: center;
-    background-color: #9dfbef;
+    text-align: center;
+    background-color: dodgerblue;
     -moz-borderradius: 1em 1em 1em 1em;
     border-radius: 1em 1em 1em 1em;
     font-size: 17px;
     border-style: solid;
     border-width: thin;
-    height: 240px;
-
+    height: 50%;
+    padding-bottom: 2%;
 }
 
 #do-not-cut-school-picture{
@@ -120,13 +122,14 @@ body {
 }
 
 .button{
-	background-color: yellow;
+	background-color: gold;
 	margin: 0px;
 }
+
 .question{
-	text-align: center;
-    font-size: 22px;
+    text-align: center;
     padding-top: 6px;
+    font-size: 48px;
 }
 
 .d li{
@@ -149,11 +152,12 @@ body {
     border-style: none;
     border-radius: 1em 1em 1em 1em;
     margin-top: 5px;
-    height: 75px;
+    height: 160px;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 20px; 
-    font-family: 'PT Sans'
+    font-size: 42px;
+    font-family: 'PT Sans';
+    line-height: normal;
   }
 .choice-button2{
     width: 90%;
@@ -189,9 +193,12 @@ body {
 }
 
 #end-of-scenario-btn{
-    text-align: center;
-    width: 51%;
-    margin-left:25%;
+    width: 60%;
+    margin-left:20%;
+    height: 150px;
+    font-family: 'Slabo 27px';
+    font-size: 42px;
     color: black;
     font-weight: bolder;
+    background-color: gold;
 }
