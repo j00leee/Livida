@@ -13,5 +13,7 @@ img{
     line-height: 1;
     text-decoration: none;
     -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: bolder;
 
 } 
