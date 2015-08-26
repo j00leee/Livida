@@ -1,0 +1,104 @@
+html, body { 
+	max-width: 100%; 
+	overflow-x: hidden; 
+	margin-left: auto;
+    margin-right: auto;
+} 
+
+
+body{
+	/* Preserve aspet ratio */
+    background-repeat: no-repeat;
+    background-position: center top;
+	background-image: url("../pictures/Background.png");
+	background-size: cover;
+}
+
+.menu-btns{
+    width: 80%;
+    height: auto;
+}
+
+#logo{
+	width: 85%;
+	height: auto;
+	margin-bottom: 6%;
+}
+
+#start{
+	width: 50%; 
+	height: 250px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1000%; 
+	font-family: 'Indie Flower';
+	font-weight: bold;
+    background-color: green;
+    -moz-border-radius: 500px/ 250px;
+    border-radius: 500px/ 250px;
+    margin-bottom: 3%;
+}
+
+#customize{
+	width: 50%; 
+	height: 250px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 450%; 
+	font-family: 'Indie Flower';
+	font-weight: bold;
+    background-color: cyan;
+    border-radius: 1em 1em 1em 1em;
+    margin-bottom: 3%;
+}
+
+#settings{
+	width: 50%; 
+	height: 150px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 450%; 
+	font-family: 'Indie Flower';
+	font-weight: bold;
+    background-color: orange;
+    border-radius: 1em 1em 1em 1em;
+    margin-bottom: 3%;
+}
+
+#credits{
+	width: 50%; 
+	height: 150px;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 450%; 
+	font-family: 'Indie Flower';
+	font-weight: bold;
+    background-color: gray;
+    border-radius: 1em 1em 1em 1em;
+    margin-bottom: 5%;
+}
+
+
+.buttons{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#ad{
+	width: 40%;
+	margin-left: 28%;
+	margin-right: 50%;
+	bottom: 0;
+}

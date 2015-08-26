@@ -1,0 +1,203 @@
+body {
+  position: inherit;
+  font-family: 'Indie Flower';
+}
+
+#meter{
+    width: 22%;
+    height: 38%;
+}
+
+#meter2{
+    width: 22%;
+    height: 38%;
+}
+
+#meter3{
+    width: 22%;
+    height: 38%;
+}
+
+.righttt{
+    height: 2px;
+    float: right;
+    padding: 0px;
+    top: 0;
+    margin-top: 0px;
+}
+
+.points{
+    width: 31%;
+}
+
+
+.title{
+    text-align: center;
+    font-family: 'PT Sans';
+}
+
+.bar-standard {
+  top: 0;
+}
+
+#continue{
+    width: 60%;
+    margin-left: 20%;
+    height: 150px;
+    font-family: 'Slabo 27px';
+    font-size: 42px;
+    color: black;
+    background-color: gold;
+}
+
+.content-padded {
+  margin-top: 60px;
+}
+.intro{
+	text-align: center;
+    background-color: #9dfbef;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 22px;
+    border-style: solid;
+    border-width: thin;
+}
+
+.left{
+    background-color: green;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 2em 7em 5em 2em;
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    clear: both;
+}
+
+.right{
+    float: right;
+    background-color: #c78ee7;
+    /* height: 5em; */
+    /* width: 12em; */
+    -moz-border-radius: 1em 4em 1em 4em;
+    border-radius: 34em 8em 6em 28em;
+    font-size: 14px;
+    border-style: solid;
+    border-width: thin;
+    display: block;
+    text-align: right;
+}
+
+.choice{
+    text-align: center;
+    background-color: dodgerblue;
+    -moz-borderradius: 1em 1em 1em 1em;
+    border-radius: 1em 1em 1em 1em;
+    font-size: 17px;
+    border-style: solid;
+    border-width: thin;
+    height: 50%;
+    padding-bottom: 2%;
+}
+
+#do-not-cut-school-picture{
+	width: 326px;
+    height: 227px;
+    clear: both; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dont-cut-btn{
+	margin-bottom: 10px;
+
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.button{
+	background-color: gold;
+	margin: 0px;
+}
+
+.question{
+    text-align: center;
+    padding-top: 6px;
+    font-size: 48px;
+}
+
+.d li{
+	float: left;
+	list-style: none;
+	margin: 0 20px;
+}
+.aa{
+	text-align: center;
+}
+
+.haha{
+	text-align: center;
+}
+.hehe{
+	text-align: center;
+}
+.choice-button{
+    width: 90%;
+    border-style: none;
+    border-radius: 1em 1em 1em 1em;
+    margin-top: 5px;
+    height: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 42px;
+    font-family: 'PT Sans';
+    line-height: normal;
+  }
+.choice-button2{
+    width: 90%;
+    border-style: none;
+    border-radius: 1em 1em 1em 1em;
+    margin-top: 5px;
+    height: 75px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px; 
+    font-family: 'PT Sans'
+  }
+  #male {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-bottom: 3%;
+    margin-top: 3%;
+  }
+  #female {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+  }
+
+#finish{
+
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+#end-of-scenario-btn{
+    width: 60%;
+    margin-left:20%;
+    height: 150px;
+    font-family: 'Slabo 27px';
+    font-size: 42px;
+    color: black;
+    background-color: gold;
+}

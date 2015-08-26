@@ -1,0 +1,17 @@
+img{	
+	width: 55%;
+    height: 70%;
+    margin: 0px 0px 7px -35px;
+    display: inline
+}
+.icon2{
+	float: right;
+    margin: 0px 31px 0px 0px;
+	display: inline-block;
+    font-family: Ratchicons;
+    font-size: 42px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+
+} 
