@@ -1,0 +1,44 @@
+img{	
+	width: 55%;
+    height: 70%;
+    margin: 0px 0px 7px -35px;
+    display: inline;
+}
+.icon2{
+	float: right;
+    margin: 0px 31px 0px 0px;
+	display: inline-block;
+    font-family: 'Indie Flower';
+    font-size: 42px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: bolder;
+
+} 
+
+.bar .btn.pull-right{
+    height: 3em;
+    width: 6em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon{
+    color: black;
+    font-weight: bold;
+}
+.frame{
+    float: left;
+    position: absolute;
+    z-index: -1;
+    height: 75%;
+    margin-left: 5px;
+}
+.guy{
+    margin-left: 45px;
+}
+.girl{
+    margin-left: 45px;
+}
