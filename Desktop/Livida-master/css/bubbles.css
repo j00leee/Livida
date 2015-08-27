@@ -1,0 +1,128 @@
+//Bubbles
+.bubble.me{
+    background-color: #c78ee7;
+}
+
+.bubble.you{
+    background-color: #95fb8a;
+    font-size: 42px;
+    padding-top: 10px;
+    line-height: normal;
+    margin: 0px 25% 20px 30px;
+    padding: 25px;
+    float: initial;
+    display: block;
+    font-family: 'PT Sans';
+}
+}
+
+.pic {
+    background-color: #95fb8a;
+    font-size: 215%;
+    padding-top: 10px;
+    margin: 0px 73% 20px 30px;
+    padding: 25px;
+    float: initial;
+    display: block;
+}
+
+.bubble{
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 0px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.bubble.you::before {
+    background-color: #95fb8a;
+}
+
+.bubble.me::before {
+    background-color: #c78ee7;
+}
+
+.bubble::before {
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.you {
+    margin: 5px 45px 5px 20px;
+
+}
+
+.you::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;
+}
+
+.me {
+    float: right;
+    margin: 5px 20px 5px 45px;
+}
+
+.me::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;
+}
+
+p{
+    color: black;
+    font-family: 'PT Sans';
+    font-size: 44px;
+    margin-bottom: 20px;
+    line-height: normal;
+    vertical-align: middle
+
+}
+.blue-bubble {
+    padding: 12px 25px 12px 25px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'PT Sans';
+    line-height: 125%;
+    background-color: dodgerblue;
+    border-radius: 1em 1em 1em 1em;
+    border-style: solid;
+    border-width: thin;
+    height: 100%;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: auto;
+}
+.rightbubble {
+    padding-right: 20px;
+    display: block;
+    width: 70%;
+    font-size: 23px;
+    margin: inherit;
+}
+.rightbubble2 {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'Slabo 27px';
+}
+.top {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+.pic {
+    width: 235px;
+}
+.pic2 {
+    width: 280px;
+}
