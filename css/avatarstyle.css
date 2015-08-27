@@ -17,3 +17,15 @@ img{
     font-weight: bolder;
 
 } 
+
+.bar .btn.pull-right{
+    height: 3em;
+    width: 6em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.icon{
+    color: black;
+    font-weight: bold;
+}

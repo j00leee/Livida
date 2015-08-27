@@ -26,6 +26,12 @@ body {
     margin-top: 0px;
 }
 
+.icon{
+    color: black;
+    font-weight: bold;
+}
+
+
 .points{
     width: 37%;
 }
