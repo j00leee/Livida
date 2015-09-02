@@ -589,7 +589,14 @@ input[type="button"] {
   margin-left: 10px;
 }
 .bar .btn.pull-left {
-  margin-right: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 28px;
+    width: 200px;
+    position: absolute;
+    font-size: 25px;
+    font-family: 'Indie Flower';
+    padding-top: 20px;
 }
 
 .bar .btn-link {
