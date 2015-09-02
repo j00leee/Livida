@@ -1,6 +1,9 @@
 #select{
-	text-align: center;
-	font-size: 80px;
+    text-align: center;
+    font-size: 80px;
+    line-height: 215%;
+    margin-top: 95px;
+    margin-bottom: 30px;
 }
 
 .gender{
@@ -14,4 +17,5 @@
     color: black;
     font-weight: bold;
 }
+
 
