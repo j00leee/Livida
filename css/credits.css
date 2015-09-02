@@ -35,7 +35,7 @@ h1 {
 	text-align: center;
 }
 .menu{
-    width: 60%;
+    width: 90%;
     border-style: none;
     border-radius: 1em 1em 1em 1em;
     margin-left: auto;
@@ -49,3 +49,6 @@ h1 {
     background-color: yellow;
     margin-bottom: 3%;
     }
+p {
+    font-size: 50px;
+}
