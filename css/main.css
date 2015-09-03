@@ -4,18 +4,21 @@ body {
 }
 
 #meter{
-    width: 30%;
-    height: 42%;
+    width: 32%;
+    height: 35%;
+    margin: 0.5% 0 0 10%;
 }
 
 #meter2{
-    width: 22%;
-    height: 38%;
+    width: 32%;
+    height: 35%;
+    margin: 0.5% 0 0 10%;
 }
 
 #meter3{
-    width: 22%;
-    height: 38%;
+    width: 32%;
+    height: 35%;
+    margin: 0.5% 0 0 10%;
 }
 
 .righttt{
@@ -33,15 +36,24 @@ body {
 
 
 .points{
-    width: 37%;
+    width: 165px;
+    max-width: 125px;
+    max-height: 50px;
+    margin-right: 30px;
+
 }
 
 
-.title{
+.title2{
+    text-align: center;
+    font-family: 'PT Sans';
+    margin-top: -0.5%;
+}
+.avatar-title{
     text-align: center;
     font-family: 'Indie Flower';
+    margin-top: 40px;
 }
-
 .bar-standard {
   top: 0;
 }
@@ -60,15 +72,20 @@ body {
   margin-top: 75px;
 }
 .intro{
-	text-align: center;
-    background-color: #9dfbef;
-    /* height: 5em; */
-    /* width: 12em; */
-    -moz-border-radius: 1em 4em 1em 4em;
+    padding: 12px 25px 12px 25px;
+    text-align: left;
+    font-size: 40px;
+    font-family: 'PT Sans';
+    line-height: 125%;
+    background-color: dodgerblue;
     border-radius: 1em 1em 1em 1em;
-    font-size: 22px;
     border-style: solid;
     border-width: thin;
+    height: 100%;
+    width: 94%;
+    margin-left: 1%;
+    margin-top: 14%;
+    margin-right: auto;
 }
 
 .left{
