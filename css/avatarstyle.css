@@ -19,8 +19,8 @@ img{
 
 } 
 .icon3{
-    float: right;
-    /*margin: -1135px 48px 0px 0px; */
+
+    margin: -1135px 48px 0px 0px;
     display: inline-block;
     font-family: 'Indie Flower';
     font-size: 42px;
@@ -29,7 +29,6 @@ img{
     -webkit-font-smoothing: antialiased;
     color: black;
     font-weight: bolder;
-    margin: -360px -141px 0px 0px;
 
 } 
 .bar .btn.pull-right{
