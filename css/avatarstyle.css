@@ -18,7 +18,19 @@ img{
     font-weight: bolder;
 
 } 
+.icon3{
+    float: right;
+    margin: -1135px 48px 0px 0px;
+    display: inline-block;
+    font-family: 'Indie Flower';
+    font-size: 42px;
+    line-height: 1;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+    color: black;
+    font-weight: bolder;
 
+} 
 .bar .btn.pull-right{
     height: 3em;
     width: 6em;
