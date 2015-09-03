@@ -62,7 +62,7 @@ body {
     width: 60%;
     margin-left: 20%;
     height: 150px;
-    font-family: 'Slabo 27px';
+    font-family: 'PT Sans';
     font-size: 42px;
     color: black;
     background-color: gold;
@@ -124,6 +124,7 @@ body {
     border-width: thin;
     height: 50%;
     padding-bottom: 2%;
+    margin-left: 10px;
 }
 
 #do-not-cut-school-picture{
@@ -209,16 +210,14 @@ body {
   }
 
 #finish{
-
     text-align: center;
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 #end-of-scenario-btn{
     width: 60%;
-    margin-left:20%;
     height: 150px;
-    font-family: 'Slabo 27px';
+    font-family: 'PT Sans';
     font-size: 42px;
     color: black;
     font-weight: bolder;
@@ -226,4 +225,7 @@ body {
 }
 .thousand{
     margin-bottom: 8px;
+}
+.endbutton {
+    margin-left: 20%;
 }
