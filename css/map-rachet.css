@@ -600,15 +600,16 @@ input[type="button"] {
     padding-top: 20px;
 }
 .bar .btn.pull-left2 {
-    margin-top: -1%;
-    height: 60%;
+    margin-top: 1%;
+    height: 40%;
     width: 5%;
     position: absolute;
     font-size: 40px;
-    font-family: 'Indie Flower';
+    font-family: 'PT Sans';
     padding-top: 33px;
     background-color: transparent;
     border-color: transparent;
+    font-weight: 900;
 }
 
 .bar .btn-link {
