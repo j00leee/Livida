@@ -195,7 +195,7 @@ body {
     font-family: 'PT Sans'
   }
   #male {
-    width: 55%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -203,7 +203,7 @@ body {
     margin-top: -3%;
   }
   #female {
-    width: 55%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     clear: both;
