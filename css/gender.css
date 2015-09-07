@@ -18,20 +18,21 @@
     font-weight: bold;
 }
 
-  #male {
-    width: 50%;
+#male {
+    width: 53%;
     margin-left: auto;
     margin-right: auto;
     clear: both;
     margin-bottom: 1%;
     margin-top: -3%;
-  }
-  #female {
-    width: 50%;
+}
+
+#female {
+    width: 53%;
     margin-left: auto;
     margin-right: auto;
     clear: both;
-  }
+}
 
 
 
