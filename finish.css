@@ -1,0 +1,33 @@
+*{
+	background-color: gray;
+}
+#logo{
+	width: 85%;
+	height: auto;
+	margin-bottom: 6%;
+	margin-left: 8%
+}
+h1 {
+	font-size: 80px;
+	text-align: center;
+	text-decoration: underline;
+}
+p {
+	font-size:50px;
+	padding: 50px;
+	text-align: center;
+}
+.menu{
+    width: 60%;
+    border-style: none;
+    border-radius: 1em 1em 1em 1em;
+    margin-left: 21%;
+    height: 15%;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 70px; 
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    background-color: yellow;
+    margin-bottom: 3%;
+    }
