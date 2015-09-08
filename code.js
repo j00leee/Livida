@@ -55,6 +55,8 @@ $( document ).ready(function() {
 	$( "#wrong").click(function() {
 		$("#eleventhtext").show();
 		$("#tell-them-btn").prop("disabled",true);
+    $("#meter2").show();
+    $("#meter").hide();
 	});
 
 });
