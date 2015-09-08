@@ -6,8 +6,6 @@ img{
     margin-top: 40px
 }
 .icon2{
-	float: right;
-    margin: 50px 48px 0px 0px;
 	display: inline-block;
     font-family: 'Indie Flower';
     font-size: 42px;
@@ -16,6 +14,7 @@ img{
     -webkit-font-smoothing: antialiased;
     color: black;
     font-weight: bolder;
+    margin: -665px 6px 0px 0px;
 
 } 
 .icon3{
