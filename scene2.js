@@ -23,6 +23,8 @@ $( document ).ready(function() {
 	$( "#all-work-btn" ).click(function() {
   		$("#fourthtext").show();
   		$("#not-all-work-btn").prop("disabled",true);
+      $("#meter20").show();
+      $("#meter10").hide();
   	});
 	$( "#encourage-btn" ).click(function() {
   		$("#fifthtext").show();
@@ -31,6 +33,8 @@ $( document ).ready(function() {
 	$( "#betray-btn" ).click(function() {
   		$("#sixthtext").show();
   		$("#encourage-btn").prop("disabled",true);
+      $("#meter30").show();
+      $("#meter20").hide();
 	});
 	$( "#good-btn" ).click(function() {
   		$("#seventhtext").show();
@@ -39,10 +43,14 @@ $( document ).ready(function() {
 	$( "#kind-btn" ).click(function() {
   		$("#ninthtext").show();
   		$("#good-btn").prop("disabled",true);
+      $("#meter40").show();
+      $("#meter30").hide();
 	});
 	$( "#wrong").click(function() {
 		$("#eleventhtext").show();
 		$("#tell-them-btn").prop("disabled",true);
+    $("#meter20").show();
+    $("#meter10").hide();
 	});
 
 });

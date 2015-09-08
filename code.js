@@ -43,6 +43,8 @@ $( document ).ready(function() {
 	$( "#always-visit-btn" ).click(function() {
   		$("#eighthtext").show();
   		$("#leader-btn").prop("disabled",true);
+      $("#meter4").show();
+      $("#meter3").hide();
 	});
 	$( "#okay-dont-cut-btn" ).click(function() {
   		$("#ninthtext").show();
@@ -51,6 +53,8 @@ $( document ).ready(function() {
 	$( "#just-cut-btn" ).click(function() {
   		$("#tenthtext").show();
   		$("#okay-dont-cut-btn").prop("disabled",true);
+      $("#meter5").show();
+      $("#meter4").hide();
 	});
 	$( "#wrong").click(function() {
 		$("#eleventhtext").show();

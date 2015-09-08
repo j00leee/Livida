@@ -21,6 +21,42 @@ body {
     margin: 2px 0 0 5px;
 }
 
+#meter4{
+    width: 32%;
+    height: 35%;
+    margin: 2px 0 0 5px;
+}
+
+#meter5{
+    width: 32%;
+    height: 35%;
+    margin: 2px 0 0 5px;
+}
+
+#meter10{
+    width: 32%;
+    height: 35%;
+    margin: 2px 0 0 5px;
+}
+
+#meter20{
+    width: 32%;
+    height: 35%;
+    margin: 2px 0 0 5px;
+}
+
+#meter30{
+    width: 32%;
+    height: 35%;
+    margin: 2px 0 0 5px;
+}
+
+#meter40{
+    width: 32%;
+    height: 35%;
+    margin: 2px 0 0 5px;
+}
+
 .righttt{
     height: 2px;
     float: right;
