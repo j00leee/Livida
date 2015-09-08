@@ -8,7 +8,9 @@
     font-size: 42px;
     padding-top: 10px;
     line-height: normal;
-    margin: 0px 25% 20px 30px;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    margin-left: 30px;
     padding: 25px;
     float: initial;
     display: block;
@@ -81,10 +83,6 @@ p{
     color: black;
     font-family: 'PT Sans';
     font-size: 44px;
-    margin-bottom: 20px;
-    line-height: normal;
-    vertical-align: middle
-
 }
 .blue-bubble {
     padding: 12px 25px 12px 25px;
@@ -126,4 +124,11 @@ body {
 }
 .pic2 {
     width: 280px;
+}
+.dont-cut {
+    width: 200%;
+    margin-left: -50%;
+}
+.after-pic {
+    margin-top: 300px;
 }
