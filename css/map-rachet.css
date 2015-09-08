@@ -610,8 +610,8 @@ input[type="button"] {
     background-color: transparent;
     border-color: transparent;
     font-weight: 900;
+        color: #33b5e5;
 }
-
 .bar .btn-link {
   top: 0;
   padding: 0;
@@ -1451,4 +1451,16 @@ select {
 
 .icon-left:before {
   content: '\e822';
+}
+.back {
+    margin-left: 10px;
+    height: 50%;
+    width: 5%;
+    position: absolute;
+    font-size: 80px;
+    font-family: 'PT Sans';
+    padding-top: 33px;
+    background-color: transparent;
+    border-color: transparent;
+    font-weight: 900;
 }
