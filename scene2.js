@@ -8,9 +8,10 @@ $( document ).ready(function() {
          $(this).hide();
      }
 );
-    alert("Once you pick a choice, please scroll down. Enjoy!");
+
     $( "#continue" ).click(function() {
   		$("#firsttext").show();
+      alert("Once you pick a choice, please scroll down. Enjoy!");
 	});
 	$( "#not-all-work-btn" ).click(function() {
   		$("#secondtext").show();
